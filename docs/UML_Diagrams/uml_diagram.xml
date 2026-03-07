@@ -1,0 +1,124 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram id="umlFlow" name="UML Activity Diagram">
+    <mxGraphModel dx="1603" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane1" parent="1" style="swimlane;fontSize=14;" value="Identity &amp; Database Engineer" vertex="1">
+          <mxGeometry height="1400" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="lane1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;" value="Load Employee Identity File" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="lane1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;" value="Design Database Schema" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="lane1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;" value="Implement DB Access Layer" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="swimlane;fontSize=14;" value="Backend API Developer" vertex="1">
+          <mxGeometry height="1400" width="300" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="lane2" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" value="Implement Login (Identity Link)" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" parent="lane2" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" value="Weekly Logic: Week Start, Deadline, Rules" vertex="1">
+          <mxGeometry height="80" width="220" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" parent="lane2" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" value="Implement API Endpoints (Weeks, Shifts, Signups, Hours)" vertex="1">
+          <mxGeometry height="100" width="220" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="1" style="swimlane;fontSize=14;" value="Admin GUI Developer" vertex="1">
+          <mxGeometry height="1400" width="300" x="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="lane3" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;" value="Admin Login Screen" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="lane3" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;" value="Create Weekly Schedule (Sun–Sat)" vertex="1">
+          <mxGeometry height="80" width="220" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="lane3" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;" value="Approve/Deny Requests (Wednesday)" vertex="1">
+          <mxGeometry height="80" width="220" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="lane3" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;" value="Finalize Week (Lock Schedule)" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="lane4" parent="1" style="swimlane;fontSize=14;" value="Volunteer GUI Developer" vertex="1">
+          <mxGeometry height="1400" width="300" x="900" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="lane4" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" value="Volunteer Login (Identity Link)" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="lane4" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" value="View Upcoming Week Shifts" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="lane4" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" value="Request Shifts (Until Tuesday)" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="lane4" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" value="View Finalized Schedule &amp; Weekly Hours" vertex="1">
+          <mxGeometry height="80" width="220" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lane5" parent="1" style="swimlane;fontSize=14;" value="Integration, QA, Documentation" vertex="1">
+          <mxGeometry height="1400" width="300" x="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="lane5" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;" value="Integrate DB, API, GUIs" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="lane5" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;" value="Test Full Weekly Flow" vertex="1">
+          <mxGeometry height="80" width="220" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" parent="lane5" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;" value="Write Documentation (Admin, Volunteer, Dev)" vertex="1">
+          <mxGeometry height="80" width="220" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="a1" target="a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="a2" target="a3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="a3" target="b1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="b1" target="b2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="b2" target="b3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="b3" target="c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="c1" target="c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="c2" target="c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="c3" target="c4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="c4" target="d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="d1" target="d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="d2" target="d3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="d3" target="d4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="d4" target="e1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15" edge="1" parent="1" source="e1" target="e2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge16" edge="1" parent="1" source="e2" target="e3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

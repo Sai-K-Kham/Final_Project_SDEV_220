@@ -1,0 +1,6 @@
+flask
+bcrypt
+pyjwt
+requests
+pytest
+pytest-cov

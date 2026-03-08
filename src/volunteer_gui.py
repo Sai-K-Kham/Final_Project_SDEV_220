@@ -556,4 +556,3 @@ class WeeklyHoursWindow(tk.Toplevel):
 if __name__ == "__main__":
     app = VolunteerLoginWindow()
     app.mainloop()
-    #
